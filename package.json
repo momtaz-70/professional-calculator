@@ -1,0 +1,36 @@
+{
+  "name": "professional-calculator",
+  "version": "1.0.0",
+  "description": "یک ماشین حساب حرفه‌ای و زیبا با قابلیت‌های علمی پیشرفته",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "live-server --port=3000",
+    "build": "echo 'No build process needed for static files'",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [
+    "calculator",
+    "scientific-calculator",
+    "javascript",
+    "html5",
+    "css3",
+    "responsive",
+    "persian",
+    "farsi"
+  ],
+  "author": "Kiro AI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/professional-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/professional-calculator/issues"
+  },
+  "homepage": "https://yourusername.github.io/professional-calculator/",
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "live-server": "^1.2.2"
+  }
+}
