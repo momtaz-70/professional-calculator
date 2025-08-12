@@ -1,0 +1,39 @@
+# Git files
+.git
+.gitignore
+
+# Documentation
+*.md
+!README.md
+
+# Node modules
+node_modules
+npm-debug.log
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# Development files
+.vscode
+.idea
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package files
+package.json
+package-lock.json
+
+# License and contributing
+LICENSE
+CONTRIBUTING.md
+deploy.md
